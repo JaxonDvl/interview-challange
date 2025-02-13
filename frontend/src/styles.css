@@ -1,0 +1,91 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main app container */
+.App {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #3498db;
+  font-size: 18px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+/* Balance and Exchange Rate Lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #ecf0f1;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Buttons */
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+/* Dropdown styling */
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Total conversion result */
+h3 {
+  margin-top: 15px;
+  padding: 10px;
+  background: #2ecc71;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+}

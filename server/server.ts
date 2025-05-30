@@ -27,7 +27,7 @@ app.get("/exchange-rates", (req, res) => {
 });
 
 // TODO: add a new endpoint 'exchange-rates/live',
-//  that will fluctuate the exchange rates with [ -0.25, 0.25 ] the current rate
+//  that will fluctuate the exchange rates with [ -0.025, 0.025 ] the current rate
 
 app.get("/balances", (req, res) => {
     res.json(balances);

@@ -33,13 +33,6 @@ The seed data lives in `server/server.ts`. Note that one rate is intentionally
 2. **`POST /convert`** — given a request body `{ "targetCurrency": "USD" }`,
    convert every balance into the target currency and return the per-currency
    amounts plus the summed total.
-   - You'll first need to enable JSON body parsing (see the TODO near the top of
-     `server/server.ts`).
-   - Same-currency conversions (e.g. `USD -> USD`) have no rate entry — treat the
-     rate as `1`.
-   - Invalid input (unknown `targetCurrency`, a missing rate pair, or a `null`
-     rate) should return a proper `400` with a clear message — not a crash or
-     `NaN`.
 
 3. **Request logging middleware** — log the method and path of each incoming
    request.
